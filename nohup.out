@@ -1,0 +1,15 @@
+Creating a virtualenv for this project...
+Pipfile: /home/jbc/Work/vito/iskra/Pipfile
+Using /home/jbc/.nix-profile/bin/python3 (3.12.0) to create virtualenv...
+created virtual environment CPython3.12.0.candidate.2-64 in 745ms
+  creator CPython3Posix(dest=/home/jbc/.local/share/virtualenvs/iskra-WoZvjLX0, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/jbc/.local/share/virtualenv)
+    added seed packages: pip==23.0, setuptools==67.1.0, wheel==0.38.4
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+✔ Successfully created virtual environment!
+Virtualenv location: /home/jbc/.local/share/virtualenvs/iskra-WoZvjLX0
+Traceback (most recent call last):
+  File "/home/jbc/Work/vito/iskra/zaehler.py", line 12, in <module>
+    import serial
+ModuleNotFoundError: No module named 'serial'
